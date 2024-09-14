@@ -39,7 +39,7 @@ string query = @"SELECT [BlogId]
       
 SqlCommand cmd = new SqlCommand(query, connection);
 //SqlDataAdapter adapter = new SqlDataAdapter(cmd); // to recevie the query
-//DataTable dt = new DataTable();
+//DataTable dt = new DataTable(); //read query method in C#
 //adapter.Fill(dt); // execute method in C#
 
 SqlDataReader reader = cmd.ExecuteReader();
