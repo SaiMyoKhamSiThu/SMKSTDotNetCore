@@ -36,5 +36,5 @@ DapperExample dapperExample = new DapperExample();
 //dapperExample.Edit(1);
 //dapperExample.Edit(2);
 //dapperExample.Update(1, "shwe", "ngwe", "ruby");
-dapperExample.Delete(2);
+dapperExample.Delete(1);
 Console.ReadKey();
