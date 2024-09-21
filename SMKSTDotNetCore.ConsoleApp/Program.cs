@@ -28,6 +28,13 @@ AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 //adoDotNetExample.Create();
 //adoDotNetExample.Edit();
 //adoDotNetExample.Update();
-adoDotNetExample.Delete();
+//adoDotNetExample.Delete();
 
+DapperExample dapperExample = new DapperExample();
+//dapperExample.Read();
+//dapperExample.Create("Lenovo", "Apple", "ROG");
+//dapperExample.Edit(1);
+//dapperExample.Edit(2);
+//dapperExample.Update(1, "shwe", "ngwe", "ruby");
+dapperExample.Delete(2);
 Console.ReadKey();
